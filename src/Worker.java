@@ -1,5 +1,6 @@
 import java.util.concurrent.ConcurrentLinkedQueue;
 
+import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.atomic.AtomicInteger;
 
 
@@ -10,14 +11,16 @@ public class Worker extends Thread{
     public ConcurrentLinkedQueue<Task> localTasks = new ConcurrentLinkedQueue<Task>();
     private AtomicInteger countWorkers;
     private int target;
-
-    public Worker(int workerId, int numsOfWorkers, AtomicInteger countWorkers, Worker[] workers) {
+    private final CountDownLatch countDownLatch;
+    private boolean sendMessage = false;
+    public Worker(int workerId, int numsOfWorkers, AtomicInteger countWorkers, Worker[] workers, CountDownLatch countDownLatch) {
         this.numsOfWorkers = numsOfWorkers;
         this.workerId = workerId;
         this.workers = workers;
         this.localTasks = new ConcurrentLinkedQueue();
         this.countWorkers = countWorkers;
         this.target = findVictim(this.workerId);
+        this.countDownLatch = countDownLatch;
     }
 
 
@@ -39,12 +42,12 @@ public class Worker extends Thread{
             return task;
         }
         int count = 0;
-        while(count <= 100) {
+        while(count <= 100000) {
             count++;
             Worker victim = workers[target];
             task = victim.steal();
             if (task != null) {
-                System.out.println("steal done");
+                //System.out.println("steal done");
                 return task;
             }
             target = findVictim(target);
@@ -52,13 +55,17 @@ public class Worker extends Thread{
                 target = findVictim(target);
             }
         }
-        countWorkers.decrementAndGet();
-        this.interrupt();
+        if (sendMessage == false) {
+            countWorkers.decrementAndGet();
+            countDownLatch.countDown();
+            sendMessage = true;
+        }
+
         return null;
     }
 
     public void push(Task task) {
-        System.out.println("worker" +this.workerId+ "push");
+        //System.out.println("worker" +this.workerId+ "push");
         localTasks.offer(task);
     }
 
@@ -71,6 +78,9 @@ public class Worker extends Thread{
     @Override
     public void run() {
         while(true) {
+            if (Thread.currentThread().isInterrupted()) {
+                break;
+            }
             Task task = getTask();
             if (task != null) {
                 task.run();

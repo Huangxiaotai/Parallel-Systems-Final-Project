@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7033656e-6aba-4cbc-92ed-134b8cd37256" name="Default Changelist" comment="" />
+    <list default="true" id="7033656e-6aba-4cbc-92ed-134b8cd37256" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NormalFiboTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProject549T/FiboTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProject549T/FiboTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProject549T/FiboTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProject549T/FiboTest$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProject549T/FiboTest$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProject549T/FiboTest$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProject549T/FiboTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProject549T/FiboTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProject549T/RunTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProject549T/RunTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FinalProject549T/Worker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FinalProject549T/Worker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FiboTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FiboTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Worker.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +27,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1klaUzIx4jWAEzergNwV60L312Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +39,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -64,7 +82,7 @@
       <workItem from="1606530140863" duration="13677000" />
       <workItem from="1606558529286" duration="5964000" />
       <workItem from="1606564622397" duration="6954000" />
-      <workItem from="1606669503998" duration="1595000" />
+      <workItem from="1606669503998" duration="3499000" />
     </task>
     <servers />
   </component>
@@ -89,33 +107,33 @@
       <screen x="0" y="0" width="1680" height="945" />
     </state>
     <state x="578" y="223" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.945/-1080.0.1080.1920@0.0.1680.945" timestamp="1606570151657" />
-    <state width="1638" height="260" key="GridCell.Tab.0.bottom" timestamp="1606574268322">
+    <state width="1638" height="260" key="GridCell.Tab.0.bottom" timestamp="1606674500297">
       <screen x="0" y="0" width="1680" height="945" />
     </state>
     <state width="1638" height="260" key="GridCell.Tab.0.bottom/-1080.0.1080.1920/0.0.1680.945@0.0.1680.945" timestamp="1606485936674" />
     <state width="1638" height="260" key="GridCell.Tab.0.bottom/-1080.25.1080.1895/0.25.1680.840@0.25.1680.840" timestamp="1606494905221" />
-    <state width="1638" height="260" key="GridCell.Tab.0.bottom/0.0.1680.945/-1080.0.1080.1920@0.0.1680.945" timestamp="1606574268322" />
+    <state width="1638" height="260" key="GridCell.Tab.0.bottom/0.0.1680.945/-1080.0.1080.1920@0.0.1680.945" timestamp="1606674500297" />
     <state width="1638" height="321" key="GridCell.Tab.0.bottom/0.25.1680.842/-1080.25.1080.1895@0.25.1680.842" timestamp="1606564544414" />
-    <state width="1638" height="260" key="GridCell.Tab.0.center" timestamp="1606574268320">
+    <state width="1638" height="260" key="GridCell.Tab.0.center" timestamp="1606674500296">
       <screen x="0" y="0" width="1680" height="945" />
     </state>
     <state width="1638" height="260" key="GridCell.Tab.0.center/-1080.0.1080.1920/0.0.1680.945@0.0.1680.945" timestamp="1606485936672" />
     <state width="1638" height="260" key="GridCell.Tab.0.center/-1080.25.1080.1895/0.25.1680.840@0.25.1680.840" timestamp="1606494905181" />
-    <state width="1638" height="260" key="GridCell.Tab.0.center/0.0.1680.945/-1080.0.1080.1920@0.0.1680.945" timestamp="1606574268320" />
+    <state width="1638" height="260" key="GridCell.Tab.0.center/0.0.1680.945/-1080.0.1080.1920@0.0.1680.945" timestamp="1606674500296" />
     <state width="1638" height="321" key="GridCell.Tab.0.center/0.25.1680.842/-1080.25.1080.1895@0.25.1680.842" timestamp="1606564544413" />
-    <state width="1638" height="260" key="GridCell.Tab.0.left" timestamp="1606574268319">
+    <state width="1638" height="260" key="GridCell.Tab.0.left" timestamp="1606674500295">
       <screen x="0" y="0" width="1680" height="945" />
     </state>
     <state width="1638" height="260" key="GridCell.Tab.0.left/-1080.0.1080.1920/0.0.1680.945@0.0.1680.945" timestamp="1606485936671" />
     <state width="1638" height="260" key="GridCell.Tab.0.left/-1080.25.1080.1895/0.25.1680.840@0.25.1680.840" timestamp="1606494905171" />
-    <state width="1638" height="260" key="GridCell.Tab.0.left/0.0.1680.945/-1080.0.1080.1920@0.0.1680.945" timestamp="1606574268319" />
+    <state width="1638" height="260" key="GridCell.Tab.0.left/0.0.1680.945/-1080.0.1080.1920@0.0.1680.945" timestamp="1606674500295" />
     <state width="1638" height="321" key="GridCell.Tab.0.left/0.25.1680.842/-1080.25.1080.1895@0.25.1680.842" timestamp="1606564544411" />
-    <state width="1638" height="260" key="GridCell.Tab.0.right" timestamp="1606574268321">
+    <state width="1638" height="260" key="GridCell.Tab.0.right" timestamp="1606674500297">
       <screen x="0" y="0" width="1680" height="945" />
     </state>
     <state width="1638" height="260" key="GridCell.Tab.0.right/-1080.0.1080.1920/0.0.1680.945@0.0.1680.945" timestamp="1606485936673" />
     <state width="1638" height="260" key="GridCell.Tab.0.right/-1080.25.1080.1895/0.25.1680.840@0.25.1680.840" timestamp="1606494905197" />
-    <state width="1638" height="260" key="GridCell.Tab.0.right/0.0.1680.945/-1080.0.1080.1920@0.0.1680.945" timestamp="1606574268321" />
+    <state width="1638" height="260" key="GridCell.Tab.0.right/0.0.1680.945/-1080.0.1080.1920@0.0.1680.945" timestamp="1606674500297" />
     <state width="1638" height="321" key="GridCell.Tab.0.right/0.25.1680.842/-1080.25.1080.1895@0.25.1680.842" timestamp="1606564544413" />
     <state width="1638" height="321" key="GridCell.Tab.1.bottom" timestamp="1606564544416">
       <screen x="0" y="25" width="1680" height="842" />
